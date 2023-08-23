@@ -1,8 +1,9 @@
 void setup() {
-  size(400, 400);
+  size(800, 800);
 }
 
 void draw() {
+
   fill(#ED86A7);
   noStroke();
   ellipse(200, 200, 200, 200);
@@ -18,4 +19,9 @@ void draw() {
   fill(255, 255, 255);
   ellipse(230, 160, 10, 10);
   fill(0, 0, 0);
+  ellipse(160,160,30,30);
+  ellipse(240,160,30,30);
+  fill(#ED86A7);
+  triangle(250,110,290,180,300,40);
+   triangle(100,110,140,180,150,40);
 }
